@@ -1,6 +1,10 @@
+*last updated: July 12, 2025*
+
 # portfolio
 
-This is a personal portfolio website built with **Next.js** and **TypeScript**. It showcases projects, blog posts, and resume information, and is styled using **Tailwind CSS**. The site is designed to be fast, modern, and easily extensible.
+This is my personal portfolio website built with **Next.js** and **TypeScript**. It showcases projects, blog posts, and resume information, and is styled using **Tailwind CSS**. The site is designed to be fast, modern, and easily extensible.
+
+*older version: [portfolio-v1](https://aman-chhetri.github.io/amankshetri/)*
 
 ## Features
 
