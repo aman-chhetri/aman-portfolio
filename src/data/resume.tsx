@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "software engineer | ai & ml | web dev",
   summary:
-    "Hey! I'm Aman Kshetri, a recent Computer Science graduate 🎓, currently working in the fields of Machine Learning and Web Development. I am mostly active within the AI/ML, Python, & Web Dev communities. \n\n I love contributing to open-source projects and have actively participated in multiple hackathons, where I collaborate, build, and solve real-world problems. \n\n I also write blogs on AI, ML, and other tech stuff. You can check them out here: [Blogs](/blog) ✍️ \n\n I'm currently available for internships, full-time opportunities, and freelance projects. If you're looking for someone passionate, skilled, and ready to contribute, I'm here to help bring your ideas to life! \n\n You can find my [Resume](https://tinyurl.com/amanresume101)📄 here! 👈",
+    "Hey! I'm Aman Kshetri, a recent Computer Science graduate 🎓, currently working in the fields of Machine Learning and Web Development. I am mostly active within the AI/ML, Python, & Web Dev communities. \n\n I love contributing to open-source projects and have actively participated in multiple hackathons, where I collaborate, build, and solve real-world problems. \n\n I also write blogs on AI, ML, and other tech stuff. You can check them out here: [Blogs](/blog) ✍️ \n\n I'm currently available for internships, full-time opportunities, and freelance projects. If you're looking for someone passionate, skilled, and ready to contribute, I'm here to help bring your ideas to life! \n\n You can find my [Resume](https://drive.google.com/file/d/1uAo1cGoczxGeIHfr1KLcR0iF8l-drh3_/view)📄 here! 👈",
   avatarUrl: "/pfp.jpg",
   skills: [
   "HTML",
@@ -102,7 +102,7 @@ export const DATA = {
       title: "Summer Research Intern",
       logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752324325/blogs/portfolio_website/logo/uiuc_logo_r6d5kf.png",
       start: "Apr 2025",
-      end: "Present",
+      end: "Jul 2025",
       description:
         "Worked on a SE research track, reviewing top-tier conference papers (ICSE, FSE, ASE), and led weekly Zoom presentations and discussions to share insights about the papers with the team.",
     },
