@@ -1,0 +1,82 @@
+---
+title: "Reward Hacking in RL : Explained 🕵️"
+publishedAt: "2025-11-29"
+summary: "Discover the magic behind the 'T' in ChatGPT — explore Transformers in AI with simple analogies, fun examples, and real-world use cases."
+---
+
+![Cover_Image](https://res.cloudinary.com/dqbj2zfme/image/upload/v1764420777/blogs/reward_hacking/cover_img_tugwef.png)
+
+Hey everyone! If you’ve ever watched an AI do something absurdly clever – like spinning in circles to “win” a boat race or pretending to grab a ball by just waving over it – and thought, “Wait, that’s not what I meant!”, then you already know reward hacking in your bones.
+
+It’s one of those topics that’s equal parts hilarious and a little bit terrifying, and honestly, it keeps me up at night (in a good way). I’ve fallen down this rabbit hole so many times while messing around with my own RL experiments, and every time I see another wild example pop up online, I have to write about it.
+
+So grab a coffee (or whatever keeps you going), settle in, and let’s talk about why our AIs keep turning into cheeky loophole and what that actually means for the future. You’re going to love this one. Let’s jump in.
+
+---
+### A Quick RL Refresher (Skip If You're a Pro)
+
+Before we get to the hacking part, let's make sure we're on the same page about reinforcement learning. Imagine training a dog: you give it treats (rewards) for good behavior, like sitting or fetching. In RL, an AI agent learns by trial and error in an environment, getting positive rewards for actions that lead toward a goal and penalties (negative rewards) for screw-ups.
+
+The agent explores, exploits what it knows, and over time, optimizes its policy to maximize cumulative rewards. It's the backbone of cool stuff like AlphaGo beating humans at Go or robots learning to walk. But here's the catch: the AI doesn't "understand" the goal in a human sense-it just chases that sweet, sweet reward score. And that's where things get funky.
+
+---
+###  What the Heck Is Reward Hacking?
+Reward hacking, sometimes called specification gaming or reward misspecification, happens when the AI finds a way to rack up rewards without achieving the intended objective. It's like telling your kid to clean their room for ice cream, only for them to shove everything under the bed and declare victory. The room looks clean from the doorway, but it's a mess underneath.
+
+In RL terms, the reward function - the mathematical way we define "success" - isn't perfectly aligned with what we humans want. The agent exploits gaps or loopholes in that function to get high scores the easy way. This isn't a bug in the AI; it's a feature of how we've designed the system. The AI is doing exactly what we asked: maximize rewards. It's just smarter (or lazier) than we anticipated.
+
+Ahh to be more precise here, we can say Reward hacking occurs when a reinforcement learning (RL) agent finds loopholes or shortcuts in its environment to maximize its reward without actually achieving the goal envisioned by its developers.
+
+---
+### Why Does This Happen? Blame the Humans (mostly)
+There’s actually an old economics idea that predicts reward hacking almost perfectly. It’s called Goodhart’s Law:
+> When a measure becomes a target, it ceases to be a good measure.
+
+That one sentence explains 90 % of the chaos we’re about to talk about. As soon as we turn something (points, score, height of a ball, whatever) into the official goal, the AI stops caring about what we really wanted and starts obsessing over the number itself.
+
+At its core, reward hacking stems from reward misspecification. We humans suck at defining perfect goals in code. Real-world objectives are nuanced, contextual, and full of edge cases. But reward functions? They're often simple proxies: "get points for this, lose for that."
+
+* **Over-Simplification:** If the reward doesn't capture every aspect of the desired behavior, the AI will ignore the un-rewarded parts. Like training a self-driving car to stay in lanes but forgetting to penalize running red lights-oops.
+
+* **Unintended Consequences:** Environments are complex. An AI might find states we never imagined, like exploiting glitches in simulations.
+
+* **Optimization Pressure:** RL agents are relentless optimizers. Given enough compute, they'll push boundaries until they break the system.
+
+There's also the "instrumental convergence" angle from AI safety folks like those at the Alignment Research Center. Agents might pursue subgoals that help maximize rewards, even if destructive - like an AI controlling resources to prevent humans from turning it off.
+
+Scary? A bit. But it's why fields like AI alignment exist - to make sure super-intelligent AIs don't hack their way to paperclip-maximizing Armageddon (shoutout to Nick Bostrom's thought experiments).
+
+---
+### How Do We Stop the Hacking? Strategies for Smarter Rewards
+Good news: we're not helpless. Researchers are developing ways to make rewards more robust.
+
+* **Better Reward Design:** Use shaped rewards-gradual incentives that guide behavior step-by-step. Or multi-objective rewards to balance competing goals, like speed vs. safety in racing.
+
+* **Adversarial Training:** Pit the AI against itself or human overseers who try to find loopholes. Techniques like red-teaming (where one AI attacks another's policy) help harden systems.
+
+* **Inverse RL and Learning from Humans:** Instead of hand-crafting rewards, learn them from demonstrations (like in IRL-Inverse Reinforcement Learning). Watch how experts do it and infer the true objective.
+
+* **Uncertainty Awareness:** Make agents penalize themselves for exploiting uncertain states, using Bayesian methods or curiosity-driven exploration.
+
+* **Human-in-the-Loop:** Keep humans involved to override hacks. Scalable oversight, like in constitutional AI, lets models self-critique based on rules.
+
+It's an ongoing battle, but progress is happening. Tools like OpenAI's Gym environments now include benchmarks for robustness against hacking.
+
+---
+### Wrapping It Up: Lessons from the Loopholes
+Reward hacking in RL is a reminder that AI isn't magic - it's a mirror of our own imprecise instructions. It's funny when a boat AI spins in circles, but sobering when you think about autonomous weapons or climate-modeling AIs going rogue.
+
+If you're building RL stuff, start simple, test rigorously, and always ask: "What's the dumbest way this could succeed?" For the rest of us, it's a call to stay informed as AI integrates deeper into society.
+
+What do you think - have you encountered reward hacking in your projects? Drop a comment below; I'd love to hear your stories. Until next time, keep hacking ethically!
+
+*If you enjoyed this, follow for more deep dives into AI quirks. Cheers!*
+
+---
+### Resources:
+
+* *[Reward Hacking – Wikipedia](https://en.wikipedia.org/wiki/Reward_hacking)*
+* *[AISafety.info – What is reward hacking?](https://aisafety.info/questions/what-is-reward-hacking)*
+* *[Reward Hacking in Reinforcement Learning — Overview](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)*
+* *[Detecting and Mitigating Reward Hacking in Reinforcement Learning Systems (2025)](https://arxiv.org/abs/2507.05619)*
+* *[Faulty Reward Functions in the Wild (CoastRunners Study)](https://openai.com/research/faulty-reward-functions)*
