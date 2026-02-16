@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "software engineer | ai & ml | web dev",
   summary:
-    "Hey! I'm Aman Kshetri, a recent Computer Science graduate 🎓, currently working in the fields of Machine Learning and Web Development. I am mostly active within the AI/ML, Python, & Web Dev communities. \n\n I love contributing to open-source projects and have actively participated in multiple hackathons, where I collaborate, build, and solve real-world problems. \n\n I also write blogs on AI, ML, and other tech stuff. You can check them out here: [Blogs](/blog) ✍️ \n\n I'm currently available for internships, full-time opportunities, and freelance projects. If you're looking for someone passionate, skilled, and ready to contribute, I'm here to help bring your ideas to life! \n\n You can find my [Resume](https://drive.google.com/file/d/1uAo1cGoczxGeIHfr1KLcR0iF8l-drh3_/view)📄 here! 👈",
+    "Hey! I'm Aman Kshetri, a recent Computer Science graduate 🎓, currently working in the fields of Machine Learning and Web Development. I am mostly active within the AI/ML, Python, & Web Dev communities. \n\n I love contributing to open-source projects and have actively participated in multiple hackathons, where I collaborate, build, and solve real-world problems. \n\n I also write blogs on AI, ML, and other tech stuff. You can check them out here: [Blogs](/blog) ✍️ \n\n I'm currently available for internships, full-time opportunities, and freelance projects. If you're looking for someone passionate, skilled, and ready to contribute, I'm here to help bring your ideas to life! \n\n You can find my [Resume](https://drive.google.com/file/d/1jTd-cJpw4RpBkaDKon1RoqFrB13LAaU_/view)📄 here! 👈",
   avatarUrl: "/pfp.jpg",
   skills: [
   "HTML",
@@ -134,6 +134,72 @@ export const DATA = {
   // ---------- Projects -----------
 
   projects: [
+            {
+      title: "Neurograd",
+      href: "https://github.com/aman-chhetri/neurograd/",
+      dates: "Nov 2025 - Dec 2025",
+      active: true,
+      description:
+        "A lightweight, minimalist, from-scratch autograd engine for neural networks in python.",
+      technologies: [
+        "Python",
+        "Numpy",
+        "Pytorch",
+        "Matplotlib",
+      ],
+      links: [
+        // {
+        //   type: "Demo",
+        //   href: "https://neura-canvas.streamlit.app/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Code",
+          href: "https://github.com/aman-chhetri/neurograd/",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dqbj2zfme/video/upload/v1771242750/blogs/portfolio_website/projects/neurograd_yj7mf6.mp4",
+    },
+
+        // ---------- Project 2 - NeuraCanvas ---------
+
+        {
+      title: "NeuraCanvas",
+      href: "https://neura-canvas.streamlit.app/",
+      dates: "Nov 2025 - Nov 2025",
+      active: true,
+      description:
+        "An AI-powered art generation app that transforms your photos by blending their content with unique artistic styles to create stunning, one-of-a-kind images.",
+      technologies: [
+        "Python",
+        "Streamlit",
+        "OpenCV",
+        "Numpy",
+        "Torch",
+        "Vgg",
+      ],
+      links: [
+        {
+          type: "Demo",
+          href: "https://neura-canvas.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Code",
+          href: "https://github.com/aman-chhetri/NeuraCanvas",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dqbj2zfme/video/upload/v1771241271/blogs/portfolio_website/projects/neuracanvas_ohgoh5.mp4",
+    },
+
+    // ---------- Project 3 - TLDR.ai ---------
+
     {
       title: "TLDR.ai",
       href: "https://text-summarizer-seven-ecru.vercel.app/",
@@ -166,7 +232,7 @@ export const DATA = {
         "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752256077/blogs/portfolio_website/projects/tldr_ai_m0iksc.mp4",
     },
 
-    // ---------- Project 2 - DropVault ---------
+    // ---------- Project 4 - DropVault ---------
 
     {
       title: "DropVault",
@@ -202,7 +268,7 @@ export const DATA = {
     },
 
 
-    // ----------- Project 3 - OsteoVision -----------
+    // ----------- Project 5 - OsteoVision -----------
 
     {
       title: "OsteoVision",
@@ -231,7 +297,7 @@ export const DATA = {
       video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752259293/blogs/portfolio_website/projects/osteovision_aatw7s.mp4",
     },
 
-    // ------------ Project 4 - MediCare ------------
+    // ------------ Project 6 - MediCare ------------
 
     {
       title: "MediCare",
@@ -265,7 +331,9 @@ export const DATA = {
       video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752256910/blogs/portfolio_website/projects/medicare_1_lv9kpl.mp4",
     },
 
-    // ------------- Project 5 - Movix App -------------
+
+    
+    // ------------- Project 7 - Movix App -------------
 
     {
       title: "Movix App",
@@ -299,7 +367,38 @@ export const DATA = {
         "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752257301/blogs/portfolio_website/projects/movix_app_dqoenk.mp4",
     },
 
-    // ------------ Project 6 - TripZen ------------
+
+    
+    // ------------ Project 8 - DeepSquare ------------
+
+    {
+      title: "DeepSquare",
+      href: "https://github.com/aman-chhetri/DeepSquare",
+      dates: "Aug 2025 - Aug 2025",
+      active: true,
+      description:
+        "An Intelligent Chess Engine built in Python with Pygame, offering multiple AI algorithms, beautiful themes, and a complete chess experience.",
+      technologies: [
+        "Python",
+        "Pygame",
+      ],
+      links: [
+        // {
+        //   type: "Demo",
+        //   href: "https://medicare-v1.streamlit.app/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Code",
+          href: "https://github.com/aman-chhetri/DeepSquare",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1771247674/blogs/portfolio_website/projects/deepsquare_hfqcsy.mp4",
+    },
+
+    // ------------ Project 9 - TripZen ------------
 
     {
       title: "TripZen",
