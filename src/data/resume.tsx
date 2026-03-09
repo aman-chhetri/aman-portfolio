@@ -107,6 +107,21 @@ export const DATA = {
         "Worked on a SE research track, reviewing top-tier conference papers (ICSE, FSE, ASE), and led weekly Zoom presentations and discussions to share insights about the papers with the team.",
     },
 
+
+        {
+      company: "Bolt.new",
+      href: "https://bolt.new/",
+      badges: [],
+      location: "Remote",
+      title: "Community Mentor (hackathon)",
+      logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1773066029/blogs/portfolio_website/logo/bolt_white_logo_xaivuf.png",
+      start: "May 2025",
+      end: "Jun 2025",
+      description:
+        "Served as a Community Mentor at the World's Largest Hackathon (Bolt.new), providing essential technical guidance on project workflow, debugging, and submission processes. Enabled smooth team progress by providing timely support, fostering collaboration, and ensuring a positive hackathon experience."
+        ,
+    },
+
   ],
 
   // ---------- Educations -----------
