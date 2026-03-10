@@ -8,26 +8,33 @@ export const DATA = {
   location: "Kathmandu, Nepal",
   locationLink: "",
   description:
-    "software engineer | ai & ml | web dev",
+    "A Computer Science Graduate, AI & ML Engineer, Full-Stack Developer and actively building innovative AI products.",
   summary:
     "Hey! I'm Aman Kshetri, a recent Computer Science graduate 🎓, currently working in the fields of Machine Learning and Web Development. I am mostly active within the AI/ML, Python, & Web Dev communities. \n\n I love contributing to open-source projects and have actively participated in multiple hackathons, where I collaborate, build, and solve real-world problems. \n\n I also write blogs on AI, ML, and other tech stuff. You can check them out here: [Blogs](/blog) ✍️ \n\n I'm currently available for internships, full-time opportunities, and freelance projects. If you're looking for someone passionate, skilled, and ready to contribute, I'm here to help bring your ideas to life! \n\n You can find my [Resume](https://drive.google.com/file/d/1jTd-cJpw4RpBkaDKon1RoqFrB13LAaU_/view)📄 here! 👈",
   avatarUrl: "/pfp.jpg",
   skills: [
-  "HTML",
-  "CSS",
+
+  "Machine Learning",
+  "Deep Learning",
+  "NLP",
+  "PyTorch",
+  "Streamlit",
+
   "JavaScript",
-  "Bootstrap",
   "React.js",
+  "Tailwind CSS",
+  "TypeScript",
+
   "Python",
-  "C++",
-  "C",
-  "Java",
+
+  // "HTML",
+  // "CSS",
+  // "Bootstrap",
 
   "Numpy",
   "Pandas",
   "TensorFlow",
   "Scikit-Learn",
-  "PyTorch",
   "Keras",
 
   "MongoDB",
@@ -90,7 +97,7 @@ export const DATA = {
     },
   },
 
-    // ---------- Work Experience -----------
+    // ---------- Work Experience -1 -----------
 
 
   work: [
@@ -107,6 +114,7 @@ export const DATA = {
         "Worked on a SE research track, reviewing top-tier conference papers (ICSE, FSE, ASE), and led weekly Zoom presentations and discussions to share insights about the papers with the team.",
     },
 
+  // ---------- Work Experience -2 -----------
 
         {
       company: "Bolt.new",
@@ -118,7 +126,7 @@ export const DATA = {
       start: "May 2025",
       end: "Jun 2025",
       description:
-        "Served as a Community Mentor at the World's Largest Hackathon (Bolt.new), providing essential technical guidance on project workflow, debugging, and submission processes. Enabled smooth team progress by providing timely support, fostering collaboration, and ensuring a positive hackathon experience."
+        "• Served as a Community Mentor at the World's Largest Hackathon (Bolt.new), providing essential technical guidance on project workflow, debugging, and submission processes\n• Enabled smooth team progress by providing timely support, fostering collaboration, and ensuring a positive hackathon experience."
         ,
     },
 

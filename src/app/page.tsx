@@ -25,10 +25,61 @@ export default function Page() {
                 text={`${DATA.name.split(" ")[0]} ▣`}
               />
               <BlurFadeText
-                className="max-w-[600px] md:text-xl"
+                className="max-w-[600px] md:text-xl text-muted-foreground"
                 delay={BLUR_FADE_DELAY}
-                text={DATA.description}
+                // text={DATA.description}
+                text="software engineer | ai & ml | web dev"
               />
+
+              <BlurFade delay={BLUR_FADE_DELAY * 2.5}>
+                <Link
+                  href="mailto:chhetryaman3@gmail.com"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-foreground hover:underline transition-all mt-2"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="size-4"
+                  >
+                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>
+                  chhetryaman3@gmail.com
+                </Link>
+              </BlurFade>
+
+              {/* <BlurFade delay={BLUR_FADE_DELAY * 2.5}>
+                <Link
+                  href="https://x.com/amanxtwts" // replace 'yourusername' with your X handle
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-foreground hover:underline transition-all mt-1"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="size-4"
+                  >
+                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.4.36a9.07 9.07 0 0 1-2.88 1.1 4.52 4.52 0 0 0-7.86 4.13A12.94 12.94 0 0 1 1.67 2.15a4.52 4.52 0 0 0 1.4 6.05 4.41 4.41 0 0 1-2.05-.57v.06a4.52 4.52 0 0 0 3.63 4.43 4.52 4.52 0 0 1-2.04.08 4.52 4.52 0 0 0 4.22 3.14A9.06 9.06 0 0 1 0 19.54 12.8 12.8 0 0 0 6.92 21c8.3 0 12.84-6.88 12.84-12.85 0-.2 0-.42-.01-.63A9.22 9.22 0 0 0 23 3z" />
+                  </svg>
+                  @amanxtwts
+                </Link>
+              </BlurFade> */}
+
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
