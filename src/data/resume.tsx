@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "A Computer Science Graduate, AI & ML Engineer, Full-Stack Developer and actively building innovative AI products.",
   summary:
-    "Hey! I'm Aman Kshetri, a recent Computer Science graduate 🎓, currently working in the fields of Machine Learning and Web Development. I am mostly active within the AI/ML, Python, & Web Dev communities. \n\n I love contributing to open-source projects and have actively participated in multiple hackathons, where I collaborate, build, and solve real-world problems. \n\n I also write blogs on AI, ML, and other tech stuff. You can check them out here: [Blogs](/blog) ✍️ \n\n I'm currently available for internships, full-time opportunities, and freelance projects. If you're looking for someone passionate, skilled, and ready to contribute, I'm here to help bring your ideas to life! \n\n You can find my [Resume](https://drive.google.com/file/d/1jTd-cJpw4RpBkaDKon1RoqFrB13LAaU_/view)📄 here! 👈",
+    "Hey! I'm Aman Kshetri, a recent Computer Science graduate 🎓, currently working in the fields of Machine Learning and Web Development. I am mostly active within the AI/ML, Python, & Web Dev communities. \n\n I love contributing to open-source projects and have actively participated in multiple hackathons, where I collaborate, build, and solve real-world problems. \n\n I also write blogs on AI, ML, and other tech stuff. You can check them out here: [Blogs](/blog) ✍️ \n\n I'm currently available for internships, full-time opportunities, and freelance projects. If you're looking for someone passionate, skilled, and ready to contribute, I'm here to help bring your ideas to life! \n\n You can find my [Resume](https://drive.google.com/file/d/1w1FVz1WSM8tCPbIAWnP0uZjyhGWMzPR_/view)📄 here! 👈",
   avatarUrl: "/pfp.jpg",
   skills: [
 
@@ -58,7 +58,7 @@ export const DATA = {
   ],
   contact: {
     email: "chhetryaman3@gmail.com",
-    tel: "+91 93874 85916",
+    tel: "",
     social: {
       GitHub: {
         name: "GitHub",
@@ -157,6 +157,45 @@ export const DATA = {
   // ---------- Projects -----------
 
   projects: [
+
+            // ---------- Project 1  - WisprBook ---------
+    
+            {
+          title: "WisprBook",
+          href: "https://wispr-book.vercel.app/",
+          dates: "Mar 2026 - Mar 2026",
+          active: true,
+          description:
+            "An AI-powered interactive book companion enabling users to upload PDFs and interact via voice, delivering real-time Q&A and summaries.",
+          technologies: [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "MongoDB",
+            "Tailwind CSS",
+            "Clerk",
+            "Vapi",
+            "ElevenLabs",
+          ],
+          links: [
+            {
+              type: "Demo",
+              href: "https://wispr-book.vercel.app/",
+              icon: <Icons.globe className="size-3" />,
+            },
+            {
+              type: "Code",
+              href: "https://github.com/aman-chhetri/WisprBook",
+              icon: <Icons.github className="size-3" />,
+            },
+          ],
+          image: "",
+          video:
+            "https://res.cloudinary.com/dqbj2zfme/video/upload/v1774621783/blogs/portfolio_website/projects/wisprflow-demo-short-preview_r5bld8.mp4",
+        },
+
+        // ---------- Project 2 - NeuroGrad ---------
+
             {
       title: "Neurograd",
       href: "https://github.com/aman-chhetri/neurograd/",
@@ -187,7 +226,7 @@ export const DATA = {
         "https://res.cloudinary.com/dqbj2zfme/video/upload/v1771242750/blogs/portfolio_website/projects/neurograd_yj7mf6.mp4",
     },
 
-        // ---------- Project 2 - NeuraCanvas ---------
+        // ---------- Project 3 - NeuraCanvas ---------
 
         {
       title: "NeuraCanvas",
@@ -221,7 +260,7 @@ export const DATA = {
         "https://res.cloudinary.com/dqbj2zfme/video/upload/v1771241271/blogs/portfolio_website/projects/neuracanvas_ohgoh5.mp4",
     },
 
-    // ---------- Project 3 - TLDR.ai ---------
+    // ---------- Project 4 - TLDR.ai ---------
 
     {
       title: "TLDR.ai",
@@ -255,7 +294,7 @@ export const DATA = {
         "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752256077/blogs/portfolio_website/projects/tldr_ai_m0iksc.mp4",
     },
 
-    // ---------- Project 4 - DropVault ---------
+    // ---------- Project 5 - DropVault ---------
 
     {
       title: "DropVault",
@@ -291,7 +330,7 @@ export const DATA = {
     },
 
 
-    // ----------- Project 5 - OsteoVision -----------
+    // ----------- Project 6 - OsteoVision -----------
 
     {
       title: "OsteoVision",
@@ -320,7 +359,7 @@ export const DATA = {
       video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752259293/blogs/portfolio_website/projects/osteovision_aatw7s.mp4",
     },
 
-    // ------------ Project 6 - MediCare ------------
+    // ------------ Project 7 - MediCare ------------
 
     {
       title: "MediCare",
@@ -356,7 +395,7 @@ export const DATA = {
 
 
     
-    // ------------- Project 7 - Movix App -------------
+    // ------------- Project 8 - Movix App -------------
 
     {
       title: "Movix App",
@@ -392,7 +431,7 @@ export const DATA = {
 
 
     
-    // ------------ Project 8 - DeepSquare ------------
+    // ------------ Project 9 - DeepSquare ------------
 
     {
       title: "DeepSquare",
@@ -421,7 +460,7 @@ export const DATA = {
       video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1771247674/blogs/portfolio_website/projects/deepsquare_hfqcsy.mp4",
     },
 
-    // ------------ Project 9 - TripZen ------------
+    // ------------ Project 10 - TripZen ------------
 
     {
       title: "TripZen",
