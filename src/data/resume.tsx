@@ -107,7 +107,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Summer Research Intern",
-      logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752324325/blogs/portfolio_website/logo/uiuc_logo_r6d5kf.png",
+      logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto,w_200/v1752324325/blogs/portfolio_website/logo/uiuc_logo_r6d5kf.png",
       start: "Apr 2025",
       end: "Jul 2025",
       description:
@@ -122,7 +122,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Community Mentor (hackathon)",
-      logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1773066029/blogs/portfolio_website/logo/bolt_white_logo_xaivuf.png",
+      logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto,w_200/v1773066029/blogs/portfolio_website/logo/bolt_white_logo_xaivuf.png",
       start: "May 2025",
       end: "Jun 2025",
       description:
@@ -139,7 +139,7 @@ export const DATA = {
       school: "Amrita Vishwa Vidyapeetham",
       href: "https://www.amrita.edu/",
       degree: "Bachelor of Technology in Computer Science (CSE)",
-      logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752307378/blogs/portfolio_website/logo/amrita_logo_zqssmm.jpg",
+      logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto,w_200/v1752307378/blogs/portfolio_website/logo/amrita_logo_zqssmm.jpg",
       start: "2021",
       end: "2025",
     },
@@ -147,7 +147,7 @@ export const DATA = {
       school: "New Capital Secondary School",
       href: "https://edusanjal.com/college/new-capital-college/",
       degree: "Grade 12 - Higher Secondary Education (PCM)",
-      logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752324324/blogs/portfolio_website/logo/ncc_logo_xuqrg7.jpg",
+      logoUrl: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto,w_200/v1752324324/blogs/portfolio_website/logo/ncc_logo_xuqrg7.jpg",
       start: "2018",
       end: "2020",
     },
@@ -191,7 +191,7 @@ export const DATA = {
           ],
           image: "",
           video:
-            "https://res.cloudinary.com/dqbj2zfme/video/upload/v1774621783/blogs/portfolio_website/projects/wisprflow-demo-short-preview_r5bld8.mp4",
+            "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1774621783/blogs/portfolio_website/projects/wisprflow-demo-short-preview_r5bld8.mp4",
         },
 
         // ---------- Project 2 - NeuroGrad ---------
@@ -223,7 +223,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://res.cloudinary.com/dqbj2zfme/video/upload/v1771242750/blogs/portfolio_website/projects/neurograd_yj7mf6.mp4",
+        "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1771242750/blogs/portfolio_website/projects/neurograd_yj7mf6.mp4",
     },
 
         // ---------- Project 3 - NeuraCanvas ---------
@@ -257,7 +257,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://res.cloudinary.com/dqbj2zfme/video/upload/v1771241271/blogs/portfolio_website/projects/neuracanvas_ohgoh5.mp4",
+        "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1771241271/blogs/portfolio_website/projects/neuracanvas_ohgoh5.mp4",
     },
 
     // ---------- Project 4 - TLDR.ai ---------
@@ -291,7 +291,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752256077/blogs/portfolio_website/projects/tldr_ai_m0iksc.mp4",
+        "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1752256077/blogs/portfolio_website/projects/tldr_ai_m0iksc.mp4",
     },
 
     // ---------- Project 5 - DropVault ---------
@@ -326,7 +326,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752291228/blogs/portfolio_website/projects/dropvault_ke9tts.mp4",
+      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1752291228/blogs/portfolio_website/projects/dropvault_ke9tts.mp4",
     },
 
 
@@ -356,7 +356,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752259293/blogs/portfolio_website/projects/osteovision_aatw7s.mp4",
+      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1752259293/blogs/portfolio_website/projects/osteovision_aatw7s.mp4",
     },
 
     // ------------ Project 7 - MediCare ------------
@@ -390,7 +390,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752256910/blogs/portfolio_website/projects/medicare_1_lv9kpl.mp4",
+      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1752256910/blogs/portfolio_website/projects/medicare_1_lv9kpl.mp4",
     },
 
 
@@ -426,7 +426,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752257301/blogs/portfolio_website/projects/movix_app_dqoenk.mp4",
+        "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1752257301/blogs/portfolio_website/projects/movix_app_dqoenk.mp4",
     },
 
 
@@ -457,7 +457,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1771247674/blogs/portfolio_website/projects/deepsquare_hfqcsy.mp4",
+      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1771247674/blogs/portfolio_website/projects/deepsquare_hfqcsy.mp4",
     },
 
     // ------------ Project 10 - TripZen ------------
@@ -488,7 +488,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/v1752289454/blogs/portfolio_website/projects/tripzen_pf157o.mp4",
+      video: "https://res.cloudinary.com/dqbj2zfme/video/upload/f_auto,q_auto,w_720/v1752289454/blogs/portfolio_website/projects/tripzen_pf157o.mp4",
     },
   ],
 
@@ -507,7 +507,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752305190/blogs/portfolio_website/certifications/aws_t1jsiv.png",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752305190/blogs/portfolio_website/certifications/aws_t1jsiv.png",
         },
       ],
     },
@@ -526,7 +526,7 @@ export const DATA = {
       links: [        {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752305219/blogs/portfolio_website/certifications/arcade_nugatn.png",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752305219/blogs/portfolio_website/certifications/arcade_nugatn.png",
         },
       ],
     },
@@ -546,7 +546,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752305220/blogs/portfolio_website/certifications/machine_learning_ck80al.jpg",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752305220/blogs/portfolio_website/certifications/machine_learning_ck80al.jpg",
         },
       ],
     },
@@ -566,7 +566,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752305219/blogs/portfolio_website/certifications/front_end_bdbkqm.jpg",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752305219/blogs/portfolio_website/certifications/front_end_bdbkqm.jpg",
         },
       ],
     },
@@ -586,7 +586,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752309203/blogs/portfolio_website/certifications/cloud_uv9ebw.jpg",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752309203/blogs/portfolio_website/certifications/cloud_uv9ebw.jpg",
         },
       ],
     },
@@ -606,7 +606,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752309419/blogs/portfolio_website/certifications/microsoft_learn_nqi6gu.jpg",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752309419/blogs/portfolio_website/certifications/microsoft_learn_nqi6gu.jpg",
         },
       ],
     },
@@ -626,7 +626,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752305220/blogs/portfolio_website/certifications/tantrotsav_edm5hd.jpg",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752305220/blogs/portfolio_website/certifications/tantrotsav_edm5hd.jpg",
         },
       ],
     },
@@ -646,7 +646,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752305218/blogs/portfolio_website/certifications/ui_timate_eosgyo.jpg",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752305218/blogs/portfolio_website/certifications/ui_timate_eosgyo.jpg",
         },
       ],
     },
@@ -666,7 +666,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752309206/blogs/portfolio_website/certifications/cepheus_ccrbnz.jpg",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752309206/blogs/portfolio_website/certifications/cepheus_ccrbnz.jpg",
         },
       ],
     },
@@ -686,7 +686,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/v1752309204/blogs/portfolio_website/certifications/hacktoberfest_gq2cud.png",
+          href: "https://res.cloudinary.com/dqbj2zfme/image/upload/f_auto,q_auto:best,w_200/v1752309204/blogs/portfolio_website/certifications/hacktoberfest_gq2cud.png",
         },
       ],
     },
